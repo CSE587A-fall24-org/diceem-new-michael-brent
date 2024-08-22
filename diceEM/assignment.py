@@ -4,7 +4,9 @@ import numpy as np
 from numpy.typing import NDArray
 from cse587Autils.DiceObjects.Die import Die, safe_exponentiate
 from cse587Autils.DiceObjects.BagOfDice import BagOfDice
+   
 
+   
 logger = logging.getLogger(__name__)
 
 def diceEM(experiment_data: List[NDArray[np.int_]],  # pylint: disable=C0103
